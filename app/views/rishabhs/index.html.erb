@@ -1,0 +1,31 @@
+<h1>Listing rishabhs</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Designation</th>
+      <th>Phone no</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @rishabhs.each do |rishabh| %>
+      <tr>
+        <td><%= rishabh.name %></td>
+        <td><%= rishabh.designation %></td>
+        <td><%= rishabh.phone_no %></td>
+        <td><%= link_to 'Show', rishabh %></td>
+        <td><%= link_to 'Edit', edit_rishabh_path(rishabh) %></td>
+        <td><%= link_to 'Destroy', rishabh, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Rishabh', new_rishabh_path %>
