@@ -1,0 +1,33 @@
+<head>
+  <style>
+      .header{ height:280px;
+          width:700px;
+          margin:auto;
+          text-align:center;
+          border:2px solid transparent;
+          background-color: #F5F5F5;
+          border-radius:15px;
+      }
+      h1{
+          color: #2e5b88;
+      }
+      #bar{ font-size:28px;
+          height:50px;
+          width: 320px;
+          border:2px solid green;
+          border-radius:15px;
+      }
+  </style>
+</head>
+<body>
+<div class="header"><h1>Hundreds of Free <br>Manufacture Drug Coupons </h1>
+
+  <%= link_to 'New Project', new_project_path %>
+  <%= link_to 'HOME ', home_home_path %>
+  <%= link_to 'Contact Us', home_contactus_path %>
+  <div>
+    <p>FOR PRESCRIPTION DRUGS AND NON-PRESCRIPTION DRUGS -<br> 100% FREE - ONLINE SINCE 2007 - NO ANNOYING SIGN- INS!</p>
+    <input id="bar" type="text" placeholder="Search Drug Coupons"> <input type="submit" id="search-submit">
+  </div>
+</div>
+</body>

@@ -1,13 +1,16 @@
 APPPath::Application.routes.draw do
   resources :projects
 
-  #get "/projects"
+  get "/home/aboutus"
+  get "/home/contactus"
+  get "/home/home"
+  get "projects/new"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-    root :to =>'projects#index'
+    root :to=>'home#home'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

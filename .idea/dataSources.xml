@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3657624632">
+    <data-source source="LOCAL" name="Rails APP_PATH: development" uuid="f0b115f3-c579-46d1-98be-88ced2f22c83">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://mysql://127.0.0.1:3306/blog_development</jdbc-url>
+      <user-name>root</user-name>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails APP_PATH: test" uuid="c67501a1-76a8-42ea-98be-a58878b7ab00">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/db/test.mysql2</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails APP_PATH: production" uuid="b13eb692-71ff-47ab-be19-f1a29f4839a1">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/db/production.mysql2</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
