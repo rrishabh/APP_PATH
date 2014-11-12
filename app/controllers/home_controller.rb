@@ -8,4 +8,10 @@ class HomeController < ApplicationController
   def contactus
 
   end
+  def assignment
+
+  end
+  def sign_up
+
+  end
 end

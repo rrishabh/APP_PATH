@@ -1,10 +1,14 @@
 APPPath::Application.routes.draw do
+  resources :userms
+
+  devise_for :users
   resources :projects
 
-  get "/home/aboutus"
-  get "/home/contactus"
+  get "/home/aboutus" => redirect("/home/home")
+  get "/home/contactus" => redirect("/home/assignment")
   get "/home/home"
   get "projects/new"
+  get "/home/assignment"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
